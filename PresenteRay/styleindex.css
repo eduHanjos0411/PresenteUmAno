@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("imgs/bg-hearts.jpg")
+}
+
+#top-container {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    padding: 1.2em;
+    margin: 1.2em;
+    margin-top:20%;
+    border-radius: 1.3em;
+}
+
+#top-container h1 {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    font-family: Rock Salt;
+    font-size: 1.2em;
+}
+
+#top-container p {
+    color: white;
+    font-size: 1.1em;
+    text-align: center;
+    margin-top: 1em;
+    font-family: Rock Salt;
+}
+
+#subSubTitle {
+    margin-bottom: 1.2em;
+}
+
+img {
+    margin-bottom: 1em;
+    align-self: center;
+}
+
+#btn-next {
+    background-color: white;
+    color: black;
+    padding: 1em 2em;
+    border: none;
+    box-shadow: 0.3em 0.4em 0.3em;
+    border-radius: 5px;
+    font-size: 0.8em;
+    font-weight: bold;
+    font-family: Rock Salt;
+    
+}
+
